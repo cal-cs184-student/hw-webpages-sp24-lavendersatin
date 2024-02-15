@@ -11,9 +11,7 @@ title: "Homework 1: Rasterizer"
 # Homework 1: Rasterizer
 ## Overview
 
-Give a high-level overview of what you implemented in this homework Think about what you've built as a whole. Share your thoughts on what interesting things you've learned from completing the homework.
-
-In this homework I implemented a rasterizer which takes in vector images and draws pixels to the screen. A major struggle in the homework was dealing with C/C++ number types and properly converting between them and I learned how one minor change in syntax can make or break everything.
+In this homework I implemented a rasterizer which takes in vector images and draws pixels to the screen. This task felt really daunting at first but I really enjoyed seeing it all come together and playing with the different antialiasing settings that I had implemented. A major struggle in the homework was dealing with C/C++ number types and properly converting between them and I learned how one minor change in syntax can make or break everything. It really helped solidify my understanding of how barycentric and uv coordinates work too since I had to implemement the logic to convert between the coordinate systems.
 
 ## Section I: Rasterization
 
