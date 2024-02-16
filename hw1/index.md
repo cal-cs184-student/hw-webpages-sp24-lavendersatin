@@ -102,6 +102,14 @@ Level sampling builds upon pixel sampling so it inherits most of the speed and m
     * To use your own png, make a copy of one of the existing svg files in svg/texmap/ (or create your own modelled after one of the provided svg files). Then, near the top of the file, change the texture filename to point to your own png. From there, you can run ./draw and pass in that svg file to render it and then save a screenshot of your results.
     * Note: Choose a png that showcases the different sampling effects well. You may also want to zoom in/out, use the pixel inspector, etc. to demonstrate the differences.
 
-L_ZERO/P_NEAREST | L_ZERO/P_LINEAR | L_NEAREST/P_NEAREST | L_NEAREST/P_LINEAR
-:---:|:---:|:---:|:---:
-![](./images/part6_zeronearest.png) | ![](./images/part6_zerolinear.png) | ![](./images/part6_nearestnearest.png) | ![](./images/part6_nearestlinear.png)
+**L_ZERO/P_NEAREST**
+![](./images/part6_zeronearest.png)
+
+**L_ZERO/P_LINEAR**
+![](./images/part6_zerolinear.png)
+
+**L_NEAREST/P_NEAREST**
+![](./images/part6_nearestnearest.png)
+
+**L_NEAREST/P_LINEAR**
+![](./images/part6_nearestlinear.png)
